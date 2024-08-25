@@ -8,9 +8,14 @@ let package = Package(
         .library(
             name: "NetworkProtocols",
             targets: ["NetworkProtocols"]
+        ),
+        .library(
+            name: "ViewCodeProtocols",
+            targets: ["ViewCodeProtocols"]
         )
     ],
     targets: [
-        .target(name: "NetworkProtocols")
+        .target(name: "NetworkProtocols"),
+        .target(name: "ViewCodeProtocols")
     ]
 )
