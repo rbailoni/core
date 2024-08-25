@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  APIError.swift
 //  
 //
 //  Created by Ricardo Bailoni on 25/08/24.
