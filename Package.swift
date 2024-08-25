@@ -12,10 +12,15 @@ let package = Package(
         .library(
             name: "ViewCodeProtocols",
             targets: ["ViewCodeProtocols"]
+        ),
+        .library(
+            name: "Errors",
+            targets: ["Errors"]
         )
     ],
     targets: [
         .target(name: "NetworkProtocols"),
-        .target(name: "ViewCodeProtocols")
+        .target(name: "ViewCodeProtocols"),
+        .target(name: "Errors")
     ]
 )
