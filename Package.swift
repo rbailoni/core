@@ -26,7 +26,7 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "NetworkProtocols"),
+        .target(name: "NetworkProtocols", dependencies: [.target(name: "Errors")]),
         .target(name: "ViewCodeProtocols"),
         .target(name: "Errors"),
         .target(name: "Extensions")
