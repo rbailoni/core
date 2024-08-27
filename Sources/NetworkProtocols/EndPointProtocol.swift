@@ -13,7 +13,7 @@ public protocol EndPointProtocol {
     var method: Method { get }
     var queries: [URLQueryItem]? { get }
     var headers: [String: String]? { get }
-    var body: HTTPBody { get set }
+    var body: HTTPBody { get }
 }
 
 public enum Method: String {
